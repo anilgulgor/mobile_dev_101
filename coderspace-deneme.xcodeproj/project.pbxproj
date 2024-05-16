@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922944E32BEB4E360009EB29 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922944E22BEB4E360009EB29 /* NetworkManager.swift */; };
+		922944E62BEB59A80009EB29 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922944E52BEB59A80009EB29 /* Movie.swift */; };
+		92929A572BE903F800D97282 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92929A562BE903F800D97282 /* MainTableViewController.swift */; };
+		92929A5A2BE9042000D97282 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92929A582BE9042000D97282 /* MainTableViewCell.swift */; };
+		92929A5B2BE9042000D97282 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92929A592BE9042000D97282 /* MainTableViewCell.xib */; };
 		92FCC8532BE4D40A0034DDE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8522BE4D40A0034DDE7 /* AppDelegate.swift */; };
 		92FCC8552BE4D40A0034DDE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8542BE4D40A0034DDE7 /* SceneDelegate.swift */; };
-		92FCC8572BE4D40A0034DDE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8562BE4D40A0034DDE7 /* ViewController.swift */; };
 		92FCC85A2BE4D40A0034DDE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC8582BE4D40A0034DDE7 /* Main.storyboard */; };
 		92FCC85C2BE4D40C0034DDE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC85B2BE4D40C0034DDE7 /* Assets.xcassets */; };
 		92FCC85F2BE4D40C0034DDE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC85D2BE4D40C0034DDE7 /* LaunchScreen.storyboard */; };
 		92FCC86A2BE4D40D0034DDE7 /* coderspace_denemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8692BE4D40D0034DDE7 /* coderspace_denemeTests.swift */; };
 		92FCC8742BE4D40D0034DDE7 /* coderspace_denemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8732BE4D40D0034DDE7 /* coderspace_denemeUITests.swift */; };
 		92FCC8762BE4D40D0034DDE7 /* coderspace_denemeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8752BE4D40D0034DDE7 /* coderspace_denemeUITestsLaunchTests.swift */; };
+		92FCC8842BE4FCF00034DDE7 /* coderspace-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC8832BE4FCF00034DDE7 /* coderspace-logo.jpeg */; };
+		92FCC8882BE500CB0034DDE7 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8872BE500CB0034DDE7 /* LaunchViewController.swift */; };
+		92FCC88A2BE502740034DDE7 /* coderspace-launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC8892BE502740034DDE7 /* coderspace-launch.png */; };
+		92FCC88E2BE503E00034DDE7 /* coderspace-white-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC88D2BE503E00034DDE7 /* coderspace-white-logo.png */; };
+		92FCC8902BE5054F0034DDE7 /* wwdc21.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC88F2BE5054F0034DDE7 /* wwdc21.png */; };
+		92FCC8922BE5154F0034DDE7 /* black-to-purple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC8912BE5154F0034DDE7 /* black-to-purple.jpeg */; };
+		92FCC8952BE8A5200034DDE7 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8942BE8A5200034DDE7 /* EmailTextField.swift */; };
+		92FCC8992BE8F2220034DDE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCC8972BE8F2220034DDE7 /* LoginViewController.swift */; };
+		92FCC89A2BE8F2220034DDE7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC8982BE8F2220034DDE7 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		922944E22BEB4E360009EB29 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		922944E52BEB59A80009EB29 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		92929A562BE903F800D97282 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		92929A582BE9042000D97282 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		92929A592BE9042000D97282 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		92FCC84F2BE4D40A0034DDE7 /* coderspace-deneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coderspace-deneme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FCC8522BE4D40A0034DDE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92FCC8542BE4D40A0034DDE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92FCC8562BE4D40A0034DDE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92FCC8592BE4D40A0034DDE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92FCC85B2BE4D40C0034DDE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92FCC85B2BE4D40C0034DDE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "coderspace-deneme/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		92FCC85E2BE4D40C0034DDE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FCC8602BE4D40C0034DDE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92FCC8652BE4D40D0034DDE7 /* coderspace-denemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coderspace-denemeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +66,15 @@
 		92FCC86F2BE4D40D0034DDE7 /* coderspace-denemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coderspace-denemeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FCC8732BE4D40D0034DDE7 /* coderspace_denemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coderspace_denemeUITests.swift; sourceTree = "<group>"; };
 		92FCC8752BE4D40D0034DDE7 /* coderspace_denemeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coderspace_denemeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92FCC8832BE4FCF00034DDE7 /* coderspace-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coderspace-logo.jpeg"; sourceTree = "<group>"; };
+		92FCC8872BE500CB0034DDE7 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		92FCC8892BE502740034DDE7 /* coderspace-launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coderspace-launch.png"; sourceTree = "<group>"; };
+		92FCC88D2BE503E00034DDE7 /* coderspace-white-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coderspace-white-logo.png"; sourceTree = "<group>"; };
+		92FCC88F2BE5054F0034DDE7 /* wwdc21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wwdc21.png; sourceTree = "<group>"; };
+		92FCC8912BE5154F0034DDE7 /* black-to-purple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-to-purple.jpeg"; sourceTree = "<group>"; };
+		92FCC8942BE8A5200034DDE7 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		92FCC8972BE8F2220034DDE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		92FCC8982BE8F2220034DDE7 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = "coderspace-deneme/LoginViewController/LoginViewController.xib"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +102,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922944E12BEB4E1E0009EB29 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				922944E22BEB4E360009EB29 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		922944E42BEB59970009EB29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				922944E52BEB59A80009EB29 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		92FCC8462BE4D40A0034DDE7 = {
 			isa = PBXGroup;
 			children = (
+				92FCC8822BE4FCCE0034DDE7 /* assets */,
 				92FCC8512BE4D40A0034DDE7 /* coderspace-deneme */,
 				92FCC8682BE4D40D0034DDE7 /* coderspace-denemeTests */,
 				92FCC8722BE4D40D0034DDE7 /* coderspace-denemeUITests */,
@@ -99,13 +142,18 @@
 		92FCC8512BE4D40A0034DDE7 /* coderspace-deneme */ = {
 			isa = PBXGroup;
 			children = (
+				922944E42BEB59970009EB29 /* Models */,
+				922944E12BEB4E1E0009EB29 /* Networking */,
+				92FCC8962BE8F2090034DDE7 /* LoginViewController */,
+				92FCC8932BE8A4DC0034DDE7 /* Views */,
 				92FCC8522BE4D40A0034DDE7 /* AppDelegate.swift */,
+				92929A562BE903F800D97282 /* MainTableViewController.swift */,
 				92FCC8542BE4D40A0034DDE7 /* SceneDelegate.swift */,
-				92FCC8562BE4D40A0034DDE7 /* ViewController.swift */,
 				92FCC8582BE4D40A0034DDE7 /* Main.storyboard */,
 				92FCC85B2BE4D40C0034DDE7 /* Assets.xcassets */,
 				92FCC85D2BE4D40C0034DDE7 /* LaunchScreen.storyboard */,
 				92FCC8602BE4D40C0034DDE7 /* Info.plist */,
+				92FCC8872BE500CB0034DDE7 /* LaunchViewController.swift */,
 			);
 			path = "coderspace-deneme";
 			sourceTree = "<group>";
@@ -125,6 +173,37 @@
 				92FCC8752BE4D40D0034DDE7 /* coderspace_denemeUITestsLaunchTests.swift */,
 			);
 			path = "coderspace-denemeUITests";
+			sourceTree = "<group>";
+		};
+		92FCC8822BE4FCCE0034DDE7 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				92FCC8912BE5154F0034DDE7 /* black-to-purple.jpeg */,
+				92FCC88F2BE5054F0034DDE7 /* wwdc21.png */,
+				92FCC88D2BE503E00034DDE7 /* coderspace-white-logo.png */,
+				92FCC8892BE502740034DDE7 /* coderspace-launch.png */,
+				92FCC8832BE4FCF00034DDE7 /* coderspace-logo.jpeg */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		92FCC8932BE8A4DC0034DDE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92FCC8942BE8A5200034DDE7 /* EmailTextField.swift */,
+				92929A582BE9042000D97282 /* MainTableViewCell.swift */,
+				92929A592BE9042000D97282 /* MainTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92FCC8962BE8F2090034DDE7 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92FCC8972BE8F2220034DDE7 /* LoginViewController.swift */,
+				92FCC8982BE8F2220034DDE7 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +310,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92FCC88A2BE502740034DDE7 /* coderspace-launch.png in Resources */,
+				92FCC88E2BE503E00034DDE7 /* coderspace-white-logo.png in Resources */,
+				92FCC8922BE5154F0034DDE7 /* black-to-purple.jpeg in Resources */,
+				92929A5B2BE9042000D97282 /* MainTableViewCell.xib in Resources */,
 				92FCC85F2BE4D40C0034DDE7 /* LaunchScreen.storyboard in Resources */,
 				92FCC85C2BE4D40C0034DDE7 /* Assets.xcassets in Resources */,
 				92FCC85A2BE4D40A0034DDE7 /* Main.storyboard in Resources */,
+				92FCC8842BE4FCF00034DDE7 /* coderspace-logo.jpeg in Resources */,
+				92FCC8902BE5054F0034DDE7 /* wwdc21.png in Resources */,
+				92FCC89A2BE8F2220034DDE7 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92FCC8572BE4D40A0034DDE7 /* ViewController.swift in Sources */,
+				92FCC8992BE8F2220034DDE7 /* LoginViewController.swift in Sources */,
 				92FCC8532BE4D40A0034DDE7 /* AppDelegate.swift in Sources */,
+				92FCC8952BE8A5200034DDE7 /* EmailTextField.swift in Sources */,
 				92FCC8552BE4D40A0034DDE7 /* SceneDelegate.swift in Sources */,
+				922944E32BEB4E360009EB29 /* NetworkManager.swift in Sources */,
+				92929A5A2BE9042000D97282 /* MainTableViewCell.swift in Sources */,
+				92929A572BE903F800D97282 /* MainTableViewController.swift in Sources */,
+				922944E62BEB59A80009EB29 /* Movie.swift in Sources */,
+				92FCC8882BE500CB0034DDE7 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +533,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "coderspace-deneme/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -469,7 +561,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "coderspace-deneme/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
